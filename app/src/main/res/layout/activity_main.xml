@@ -21,7 +21,7 @@
         android:id="@+id/przycisk_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Przycisk"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -44,5 +44,26 @@
             android:layout_height="wrap_content"
             android:hint="hint" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioButton
+        android:id="@+id/wybor_zielony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zielony"
+        app:layout_constraintBottom_toTopOf="@+id/wybor_czerwony"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tekst_input" />
+
+    <RadioButton
+        android:id="@+id/wybor_czerwony"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="124dp"
+        android:text="Czerwony"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
